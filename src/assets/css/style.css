@@ -1,0 +1,274 @@
+/*@font-face {
+  font-family: 'ch';
+  src: url('fonts/CooperHewitt-Bold.eot'); 
+  src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('fonts/CooperHewitt-Bold.woff') format('woff'), 
+  
+}*/
+
+@font-face {
+    font-family: MuseoSans;
+    src: url(fonts/MuseoSans_0.otf);
+}
+
+@font-face {
+    font-family: MuseoSans100;
+    src: url(fonts/MuseoSans-100.otf);
+}
+
+@font-face {
+    font-family: MuseoSans900;
+    src: url(fonts/MuseoSans_1.otf);
+}
+
+.secretaria {
+    border: solid 0.1em #0078c1;
+    padding: 20px;
+}
+
+.secretaria .col-xs-1 i {
+    color: #0078c1;
+}
+
+.secretaria .col-xs-10 {
+    font-family: MuseoSans100!important;
+}
+
+.secretaria .row {
+    margin: 10px 0;
+}
+
+table tr.first {
+    background: #0078c1;
+    color: #fff;
+    font-weight: bolder;
+}
+
+table tr.second {
+    background: #005a92;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.no-padd {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-padding{
+    padding: 0px;
+}
+.main{
+    min-height: 350px;
+}
+
+/*.container-img {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.container-info-img {
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    bottom: -60%;
+    padding: 20px;
+}
+
+.container-info-img h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.container-info-img span.cargo {
+    color: #fff;
+    font-size: 1em;
+}
+
+.container-info-img .separador-info {
+    height: 2px;
+    background: #f7d435;
+    margin: 10px 0;
+}
+
+.container-info-img p {
+    color: #fff;
+}*/
+
+.contenedor-titulo{
+    background-color:  var(--fic-color-principal);
+    /*background-image: url("../img/fondo-header.png");*/
+}
+.title-uoh{
+    color: #0078c1;
+    display: inline-block;
+    font-size: 1.7em;
+}
+.line-title {
+    height: 7px;
+    background: #f7d435;
+    width: 130px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+.caja-info {
+    padding:10px 20px;
+    border:solid 0.2em #0078c1;
+    margin-bottom: 40px;
+}
+
+.caja-info .col-md-12 {
+    font-family: MuseoSans100!important;
+}
+
+@media only screen and (max-width : 768px) {
+    p.big {
+        font-family: MuseoSans100!important;
+        line-height: 19px;
+        font-size: 1.2em;
+        padding: 0;
+    }
+    .no-padd-xs {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+p.big {
+    font-family: MuseoSans100!important;
+    line-height: 29px;
+    font-size: 1.5em;
+    padding: 0 15px;
+}
+
+.titulo-header{
+    text-align: center;
+    color: var(--fic-color-principal);
+    font-weight: bold;
+    font-family: "MuseoSans", sans-serif;
+    background-color: var(--fic-color-secundario-1);
+    height: 150px;
+   /*  text-shadow: 2px 2px 2px rgba(140, 140, 140, 1);*/
+
+}
+
+.titulo-header > h1{
+    font-size: 2.25em;
+}
+
+.titulo-header > h3{
+    font-size: 1.5em;
+}
+
+div, h1, h2, h3, h4, h5, h6, a {
+    font-family: MuseoSans !important;
+}
+
+.btn-uoh {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: .85em;
+    background: #f7d435;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    padding: 3.5px 25px 3px 15px;
+}
+
+.btn-uoh:hover i{
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+    transform: translateX(5px);
+}
+
+a, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar{
+	background-color: rgb(0, 90, 146);
+	border-radius: 0px;
+}
+.navbar-default{
+	border:none;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    width: 170px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:visited  {
+	color: var(--fic-color-principal);
+	font-family:"Raleway", sans-serif;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: var(--fic-menu-color-hover-texto);
+}
+
+.titulo-articulo{
+	margin-bottom: 40px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+/*.footer{
+	background-color:#FFFFAA;
+	height: auto;
+	color:white;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}*/
+
+.copyright{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 0.80em;
+}
+
+.titulo-articulo:empty {
+    background: #dee0e2;
+    height: 25px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.parrafo-articulo:empty {
+    background: #dee0e2;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.opciones-404 {
+	margin-top: 30px !important;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.opciones-404 li {
+	display: inline;
+}
+
+.opciones-404 li a {
+	font-size: 20px;
+    padding: 8px;
+    border-right: 1pt solid black;
+}
+
+.opciones-404 li:last-child a {
+	border: none;
+}
